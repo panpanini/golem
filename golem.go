@@ -18,7 +18,7 @@ var qs = []*survey.Question{
 		Prompt: &survey.Select{
 			Message: "Type of commit:",
 			Options: []string{
-				"✨ feat     | new feature",
+				"✨ feat      | new feature",
 				"🐛 fix      | bug fix",
 				"📚 docs     | documentation",
 				"🐶 style    | code formatting",

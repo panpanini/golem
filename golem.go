@@ -69,7 +69,7 @@ func main() {
 		return
 	}
 
-	out := fmt.Sprintf("%s(%s): %s | %s", answers.Type, answers.Scope, answers.Issue, answers.Message)
+	out := fmt.Sprintf("%s(%s): %s \n%s", answers.Type, answers.Scope, answers.Issue, answers.Message)
 	if *noIssue {
 		out = fmt.Sprintf("%s(%s): %s", answers.Type, answers.Scope, answers.Message)
 	}
